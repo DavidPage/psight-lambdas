@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/j8lambrdas.iml" filepath="$PROJECT_DIR$/.idea/modules/j8lambrdas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/j8lambrdas_main.iml" filepath="$PROJECT_DIR$/.idea/modules/j8lambrdas_main.iml" group="j8lambrdas" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/j8lambrdas_test.iml" filepath="$PROJECT_DIR$/.idea/modules/j8lambrdas_test.iml" group="j8lambrdas" />
+    </modules>
+  </component>
+</project>
