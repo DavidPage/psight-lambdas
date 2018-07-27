@@ -1,4 +1,4 @@
-package stringcomparator;
+package runnable;
 
 public class StringPrinterRunnable {
 
