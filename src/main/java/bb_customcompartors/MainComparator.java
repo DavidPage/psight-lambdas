@@ -1,6 +1,6 @@
-package customcompartors;
+package bb_customcompartors;
 
-import methodreferences.Person;
+import b_methodreferences.Person;
 
 import java.util.function.Function;
 
@@ -35,8 +35,8 @@ public class MainComparator {
 
         Comparator<Person> cmpPersonDirect = Comparator.comparePerson(Person::getAge);
 
-        System.out.println("age comparator interface: " + cmpPerson.compare(p1, p2));
-        System.out.println("age comparator interface directly: " + cmpPersonDirect.compare(p1, p2));
+        System.out.println("age aaa_stringprinter interface: " + cmpPerson.compare(p1, p2));
+        System.out.println("age aaa_stringprinter interface directly: " + cmpPersonDirect.compare(p1, p2));
 
     }
 }

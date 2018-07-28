@@ -1,4 +1,4 @@
-package consumer;
+package aa_consumer;
 
 import java.util.function.Consumer;
 

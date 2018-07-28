@@ -1,4 +1,4 @@
-package runnable;
+package a_runnable;
 
 public class StringPrinterRunnable {
 

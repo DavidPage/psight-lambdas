@@ -1,6 +1,6 @@
-package customcompartors;
+package bb_customcompartors;
 
-import methodreferences.Person;
+import b_methodreferences.Person;
 
 import java.util.function.Function;
 
