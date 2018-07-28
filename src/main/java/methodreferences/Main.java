@@ -12,7 +12,7 @@ public class Main {
 
         Function<Person, Integer> personagereferences = Person::getAge;
 
-        System.out.println("get age on person by reference: " + personagereferences.apply(new Person(1000)));
+        System.out.println("get age on person by reference: " + personagereferences.apply(new Person(1_000)));
 
     }
 }
