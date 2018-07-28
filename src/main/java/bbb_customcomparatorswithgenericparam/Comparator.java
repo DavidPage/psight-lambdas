@@ -1,4 +1,4 @@
-package bbb_customcomparatorswithgenerics;
+package bbb_customcomparatorswithgenericparam;
 
 import b_methodreferences.Person;
 
