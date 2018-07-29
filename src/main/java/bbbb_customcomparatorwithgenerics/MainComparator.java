@@ -25,6 +25,7 @@ public class MainComparator {
         // should fallback to comparelastName when as the ages are the same. returns 0 as last names equal
         System.out.println(cmpWithFallbackOnLastName.compare(p1, p3));
 
+        System.out.println(cmpWithFallbackOnLastName.compare(p1, p3));
 
     }
 }
