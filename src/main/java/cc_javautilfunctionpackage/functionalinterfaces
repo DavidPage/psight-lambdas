@@ -1,0 +1,9 @@
+java.util.function
+
+do contain 43 functional interfaces of which have 4 categories:
+
+ - Consumer
+ - Function
+ - Predicate
+ - Supplier
+
