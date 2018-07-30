@@ -20,5 +20,18 @@ public class Main {
         Predicate<Person> olderThan20OROlderThan80 = olderThan80.or(olderThan20);
 
         System.out.println("older than 20 or younger than 80? " + olderThan20OROlderThan80.test(new Person(10)));
+
+
+        Predicate<String> isYesEqualsToYes = Predicate.isEqualTo("Yes");
+
+        System.out.println("Is Yes equals to Yes? " + isYesEqualsToYes.test("Yes"));
+        System.out.println("Is No equals to Yes? " + isYesEqualsToYes.test("No"));
+
+        Predicate<Integer> predicateEqualsTo20 = Predicate.isEqualTo(20);
+
+        System.out.println("Is 10 equals to 20? " + predicateEqualsTo20.test(10));
+        System.out.println("Is 20 equals to 20? " + predicateEqualsTo20.test(20));
+
+
     }
 }

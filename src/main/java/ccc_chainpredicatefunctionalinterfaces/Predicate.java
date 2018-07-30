@@ -14,4 +14,12 @@ public interface Predicate<T> {
     default Predicate<T> or(Predicate<T> other) {
         return t -> test(t) || other.test(t);
     }
+
+//    static Predicate<String> isEqualTo(String string){
+//        return s -> s.equals(string);
+//    }
+
+    static <U> Predicate<U> isEqualTo(U string){
+        return s -> s.equals(string);
+    }
 }
