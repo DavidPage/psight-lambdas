@@ -21,6 +21,5 @@ public class PredefinedFunctinalInterfacesMain {
 
         System.out.println(String.format("%.2f doublyfied into ", doublifyFunction.applyAsDouble(10)));
 
-
     }
 }
