@@ -19,5 +19,6 @@ public class PredicateMain {
 
         System.out.println("is person older than 20? " + isPersonOlderThanX.test(new Person(10), 20));
 
+
     }
 }
