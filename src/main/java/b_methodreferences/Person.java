@@ -8,6 +8,15 @@ public class Person {
     private String firstName;
     private String lastName;
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
+
     public Person(int age, String firstName, String lastName) {
         this.age = age;
         this.firstName = firstName;
