@@ -1,4 +1,4 @@
-package d_firstmapinterfaces;
+package d_firstlistsinterfaces;
 
 import b_methodreferences.Person;
 
